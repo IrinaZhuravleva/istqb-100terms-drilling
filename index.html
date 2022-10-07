@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+
+	<link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico">
+	<!-- mynewterms.surge.sh -->
+	<meta name="theme-color" content="#ffffff">
+	
+	<title>ISTQB terms - drilling</title>
+</head>
+
+<link href="css/style.css" rel="stylesheet">
+	<body>
+		
+		<div class="links-wrapper">
+			<!-- <a class="new-words-link" href="form.html">Новое слово</a> -->
+			<!-- <button class="new-words-link" onclick="downloadCSV()">Сохранить csv</button> -->
+			<!-- <button class="new-words-link" onclick="resetData()">Сбросить термины</button> -->
+			<a class="new-words-link" a href="dictionary.html">All the terms</a>
+			<!-- <a class="new-words-link" a href="checking.html">Инпуты</a> -->
+			<!-- <button class="new-words-link fifty" onclick="chooseArray50()">От 0 до 50</button>
+			<button class="new-words-link cent" onclick="chooseArray100()">От 0 до 100</button>
+			<button class="new-words-link centfifty" onclick="chooseArrayAfter100()">После 100</button>
+			<button class="new-words-link centfifty" onclick="chooseArrayLast()">Последние 50</button> -->
+		</div>
+		<div class="container">
+			<div class="expression-number"></div>
+			<div class="wrapper">
+				<div class="question">
+				</div>
+				
+				<ul class="answers">
+				</ul>
+			</div>
+			<div class="checking checking-incorrect hidden">Wrong. Choose again</div>
+			<div class="checking checking-correct hidden">Correct. Go ahead</div>
+			<div class="buttons-wrapper">
+				<div class="reload-btn" onclick="location.reload()">Reload</div>
+				<button class="nextButton">Next</button>
+			</div>
+			
+		</div>
+	
+	<script src="js/model.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+</html>
+
+<!-- mynewterms.surge.sh -->
